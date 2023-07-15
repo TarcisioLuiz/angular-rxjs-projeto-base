@@ -11,6 +11,7 @@ import { LivroComponent } from './componentes/livro/livro.component';
 import { RodapeComponent } from './componentes/rodape/rodape.component';
 import { ListaLivrosComponent } from './views/lista-livros/lista-livros.component';
 import { ModalLivroComponent } from './views/modal-livro/modal-livro.component';
+import { AutoriaPipe } from './pipes/autoria.pipe';
 
 @NgModule({
   declarations: [
@@ -19,7 +20,8 @@ import { ModalLivroComponent } from './views/modal-livro/modal-livro.component';
     RodapeComponent,
     LivroComponent,
     ListaLivrosComponent,
-    ModalLivroComponent
+    ModalLivroComponent,
+    AutoriaPipe
   ],
   imports: [
     BrowserModule,
